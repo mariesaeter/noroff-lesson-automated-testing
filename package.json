@@ -4,11 +4,15 @@
   "description": "Installs jest",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test-unit",
+    "test-unit": "jest"
   },
   "keywords": [
     "jest"
   ],
   "author": "Marie Sæter <marie.saeter@gmail.com>",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "jest": "^29.2.0"
+  }
 }
